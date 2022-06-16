@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+}
+
+header nav .nav-left {
+  width: 50%;
+}
+
+header nav .nav-right {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+header nav .nav-right img {
+  width: 19px;
+}
+
+.main .showcase-title {
+  font-weight: bold;
+  padding-bottom: 15px;
+  font-size: 4vw;
+  width: 32%;
+  padding-left: 3%;
+}
+
+.main .showcase-title .sub-title {
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 4%;
+  width: 80%;
+  line-height: 30px;
+}
+
+.main {
+  position: relative;
+}
+
+.main .image1 {
+  position: absolute;
+  width: 43%;
+  right: 5%;
+  top: 4%;
+}
+.main .image1 img {
+  width: 100%;
+}
+
+.main .brush img {
+    width: 100%;
+}
+
+.main .showcase-title button {
+  border-radius: 24px;
+  width: 33%;
+  height: 43px;
+  color: black;
+  border: 2px solid#005469;
+  font-size: 17px;
+  background-color: white;
+}
+
+/////****Movie Titles****///// 
+
+.section-2 .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.section-2 {
+    width: 70%;
+    margin: 1% auto;
+}
+
+.section-2 .grid{
+  display: grid;
+  gap: 1vw;
+  grid-template-columns: auto auto auto auto;
+}
+
+.section-2 .grid .grid-items{
+  text-align: center;
+}
+
+.section-2 .grid .grid-items .item-img{
+  position: relative;
+}
+
+.section-2 .grid .grid-items .item-img .like-btn{
+  position: absolute;
+  top: 1vw;
+  left: 12vw;
+}
+
+.section-2 .grid .grid-items .desc{
+  line-height: 2;
+}
+
+/********** footer *************/
+
+footer{
+  text-align: center;
+  line-height: 3;
+  margin: 30%;
+}
+
+footer button {
+  border-radius: 17px;
+  background-color: #2E3D3D;
+  font-weight: bold;
+  color: white;
+  height: 3vw;
+  width: 11vw;
+}
+
