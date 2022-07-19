@@ -13,6 +13,7 @@ In this web application you will find many informative movie reviews, you can co
 
 Check out [FRONTEND LIVE DEMO](https://frontend-cinema-paradiso.herokuapp.com/) here!!
 
+
 Check out [API LIVE DEMO](https://backend-cinema-paradiso.herokuapp.com/) here!!
 
 ## Tech used
